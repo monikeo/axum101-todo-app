@@ -1,0 +1,10 @@
+[package]
+name = "axum101-todo-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+jsonwebtoken = "9.3.0"
+serde = { version = "1.0.206", features = ["derive"] }
+tokio = { version = "1.39.2", features = ["full"] }
